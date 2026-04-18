@@ -23,7 +23,6 @@ dependencies:
 # Networking:
   dio: ^5.9.2
   pretty_dio_logger: ^1.4.0
-  dio_cache_interceptor: ^4.0.6
   web_socket_channel: ^3.0.3
 
 # Dependency Injection:
@@ -36,18 +35,16 @@ dependencies:
   go_router: ^17.2.1
 
 # Storage:
-flutter_secure_storage: ^10.0.0
-shared_preferences: ^2.5.5
+  flutter_secure_storage: ^10.0.0
+  shared_preferences: ^2.5.5
+
 # UI;
-fl_chart: ^1.2.0
-shimmer: ^3.0.0
+  fl_chart: ^1.2.0
+  shimmer: ^3.0.0
 
 # Utilities:
-intl: ^0.20.2
+  intl: ^0.20.2
 
-# Testing:
-bloc_test: ^10.0.0
-mocktail: ^1.0.5
 
 
 
@@ -57,8 +54,11 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-
+  # Testing:
   flutter_lints: ^6.0.0
+  bloc_test: ^10.0.0
+  mocktail: ^1.0.5
+
 
 
 flutter:
